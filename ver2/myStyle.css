@@ -1,0 +1,57 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content button:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
+ /*main.php*/
+  table.result tr td:first-child {font-size:1.05em}
+  .tlacitka input, .tlacitka button {background:#d8d8d8; border:1px solid #666666; cursor:pointer;}
+  .tlacitka input ,.tlacitka button {padding:0.65em; margin:0.5em 0; min-width:5em}
+  .tlacitka input[type="submit"] ,.tlacitka button{margin-right:1.7em}
+  input[type="text"], input[type="tel"] {font-size:1.05em; width:150px; padding:0.4em; border:1px solid #666666}
+  .prom{font: italic 1.2em "Times New Roman",serif}
+  .okraj {padding:0 0.75em 0.3em; clear:both}
+  .okraj input[type="text"], .okraj input[type="tel"] {margin:0.3em 0;}
+  .okraj input[readonly] {border:0; border-bottom:1px solid #666666; padding:0.2em; margin:0.5em;}
+
+
+  .hide_form{
+    display: none;
+  }
